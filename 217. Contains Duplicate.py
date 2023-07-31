@@ -1,3 +1,4 @@
+# Given an integer list, return true if duplicates exist.
 
 def containsDuplicate(nums):
     uniques = set(nums)
@@ -6,4 +7,7 @@ def containsDuplicate(nums):
     else:
         return False
 
-print(containsDuplicate([1,2,3,4]))
+#TIme complexity: O(n)
+#Space complexity: O(n)
+
+
