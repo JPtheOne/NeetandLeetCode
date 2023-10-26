@@ -1,3 +1,4 @@
+# Given a list of words, group in tuples by anagram.
 def groupAnagrams(strs):
     anagrams = {}
 
@@ -16,3 +17,7 @@ def groupAnagrams(strs):
         anagrams[key].append(word)
 
     return anagrams.values()
+
+# Time complexity O(nk^2)
+# Space complexity O(nk)
+# Where K is the number of letters per word
